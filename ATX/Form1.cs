@@ -468,6 +468,5 @@ namespace ATX
         {
             Application.Exit();
         }
-        ///testing
     }
 }
