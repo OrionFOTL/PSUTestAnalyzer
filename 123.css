@@ -1,0 +1,16 @@
+table.psutable {font: 14px/1.3 'Arial',sans-serif; color: #333;border: 2px solid black; border-collapse: collapse; margin: 10px auto; text-align: center;}
+table.psutable td {border: 1px solid grey; padding: 10px 5px; }
+table.psutable th {
+background: #653900;
+color: white;
+border: 1px solid black;
+text-align: center;
+padding: 10px 5px;
+font-size: 15px;}
+table.psutable em {font-size: smaller;}
+table.psutable colgroup col.load {background-color: #fff7bf; border-right: 1px solid black;}
+table.psutable colgroup col.voltage { background-color: #fffcdc; }
+table.psutable colgroup col.reszta {background-color: #F7F8DC;}
+table.psutable td {position: relative; background-clip: padding-box;}
+table.psutable td p {margin: 0;}
+table.psutable td > p + p {position: absolute; right: 0px; bottom: 0px; font-size: smaller;}
