@@ -137,11 +137,12 @@
             this.tableLayoutPanelGlowny.Controls.Add(this.tableLayoutPanelDolnyPrawy, 1, 1);
             this.tableLayoutPanelGlowny.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanelGlowny.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanelGlowny.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tableLayoutPanelGlowny.Name = "tableLayoutPanelGlowny";
             this.tableLayoutPanelGlowny.RowCount = 2;
             this.tableLayoutPanelGlowny.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanelGlowny.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanelGlowny.Size = new System.Drawing.Size(1425, 707);
+            this.tableLayoutPanelGlowny.Size = new System.Drawing.Size(1069, 574);
             this.tableLayoutPanelGlowny.TabIndex = 0;
             // 
             // tableLayoutPanelLewyGor
@@ -151,12 +152,13 @@
             this.tableLayoutPanelLewyGor.Controls.Add(this.flowLayoutPanelDaneTest, 0, 0);
             this.tableLayoutPanelLewyGor.Controls.Add(this.dataGridViewLoad, 0, 1);
             this.tableLayoutPanelLewyGor.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanelLewyGor.Location = new System.Drawing.Point(3, 3);
+            this.tableLayoutPanelLewyGor.Location = new System.Drawing.Point(2, 2);
+            this.tableLayoutPanelLewyGor.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tableLayoutPanelLewyGor.Name = "tableLayoutPanelLewyGor";
             this.tableLayoutPanelLewyGor.RowCount = 2;
-            this.tableLayoutPanelLewyGor.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tableLayoutPanelLewyGor.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32F));
             this.tableLayoutPanelLewyGor.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanelLewyGor.Size = new System.Drawing.Size(706, 347);
+            this.tableLayoutPanelLewyGor.Size = new System.Drawing.Size(530, 283);
             this.tableLayoutPanelLewyGor.TabIndex = 0;
             // 
             // flowLayoutPanelDaneTest
@@ -166,9 +168,10 @@
             this.flowLayoutPanelDaneTest.Controls.Add(this.buttonExportLoad);
             this.flowLayoutPanelDaneTest.Controls.Add(this.buttonRefresh);
             this.flowLayoutPanelDaneTest.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanelDaneTest.Location = new System.Drawing.Point(3, 3);
+            this.flowLayoutPanelDaneTest.Location = new System.Drawing.Point(2, 2);
+            this.flowLayoutPanelDaneTest.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.flowLayoutPanelDaneTest.Name = "flowLayoutPanelDaneTest";
-            this.flowLayoutPanelDaneTest.Size = new System.Drawing.Size(700, 34);
+            this.flowLayoutPanelDaneTest.Size = new System.Drawing.Size(526, 28);
             this.flowLayoutPanelDaneTest.TabIndex = 1;
             // 
             // labelDaneWejsciowe
@@ -176,18 +179,20 @@
             this.labelDaneWejsciowe.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelDaneWejsciowe.AutoSize = true;
             this.labelDaneWejsciowe.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.labelDaneWejsciowe.Location = new System.Drawing.Point(3, 4);
+            this.labelDaneWejsciowe.Location = new System.Drawing.Point(2, 4);
+            this.labelDaneWejsciowe.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelDaneWejsciowe.Name = "labelDaneWejsciowe";
-            this.labelDaneWejsciowe.Size = new System.Drawing.Size(152, 24);
+            this.labelDaneWejsciowe.Size = new System.Drawing.Size(120, 18);
             this.labelDaneWejsciowe.TabIndex = 0;
             this.labelDaneWejsciowe.Text = "Dane Wejściowe";
             // 
             // buttonWczytaj
             // 
             this.buttonWczytaj.AutoSize = true;
-            this.buttonWczytaj.Location = new System.Drawing.Point(161, 3);
+            this.buttonWczytaj.Location = new System.Drawing.Point(126, 2);
+            this.buttonWczytaj.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonWczytaj.Name = "buttonWczytaj";
-            this.buttonWczytaj.Size = new System.Drawing.Size(111, 27);
+            this.buttonWczytaj.Size = new System.Drawing.Size(88, 23);
             this.buttonWczytaj.TabIndex = 1;
             this.buttonWczytaj.Text = "Wczytaj z pliku";
             this.buttonWczytaj.UseVisualStyleBackColor = true;
@@ -196,9 +201,10 @@
             // buttonExportLoad
             // 
             this.buttonExportLoad.AutoSize = true;
-            this.buttonExportLoad.Location = new System.Drawing.Point(278, 3);
+            this.buttonExportLoad.Location = new System.Drawing.Point(218, 2);
+            this.buttonExportLoad.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonExportLoad.Name = "buttonExportLoad";
-            this.buttonExportLoad.Size = new System.Drawing.Size(139, 27);
+            this.buttonExportLoad.Size = new System.Drawing.Size(109, 23);
             this.buttonExportLoad.TabIndex = 3;
             this.buttonExportLoad.Text = "Eksportuj do HTML";
             this.buttonExportLoad.UseVisualStyleBackColor = true;
@@ -209,9 +215,10 @@
             this.buttonRefresh.AutoSize = true;
             this.buttonRefresh.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.buttonRefresh.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.buttonRefresh.Location = new System.Drawing.Point(423, 3);
+            this.buttonRefresh.Location = new System.Drawing.Point(331, 2);
+            this.buttonRefresh.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonRefresh.Name = "buttonRefresh";
-            this.buttonRefresh.Size = new System.Drawing.Size(120, 27);
+            this.buttonRefresh.Size = new System.Drawing.Size(92, 23);
             this.buttonRefresh.TabIndex = 4;
             this.buttonRefresh.Text = "Zastosuj zmiany";
             this.buttonRefresh.UseVisualStyleBackColor = true;
@@ -242,7 +249,8 @@
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridViewLoad.DefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridViewLoad.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridViewLoad.Location = new System.Drawing.Point(3, 43);
+            this.dataGridViewLoad.Location = new System.Drawing.Point(2, 34);
+            this.dataGridViewLoad.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridViewLoad.Name = "dataGridViewLoad";
             this.dataGridViewLoad.RowHeadersVisible = false;
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.White;
@@ -250,7 +258,7 @@
             this.dataGridViewLoad.RowsDefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridViewLoad.RowTemplate.DefaultCellStyle.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             this.dataGridViewLoad.RowTemplate.Height = 24;
-            this.dataGridViewLoad.Size = new System.Drawing.Size(700, 301);
+            this.dataGridViewLoad.Size = new System.Drawing.Size(526, 247);
             this.dataGridViewLoad.TabIndex = 2;
             this.dataGridViewLoad.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewLoad_CellEndEdit);
             // 
@@ -261,12 +269,13 @@
             this.tableLayoutPanelLewyDol.Controls.Add(this.dataGridViewRipple, 0, 1);
             this.tableLayoutPanelLewyDol.Controls.Add(this.flowLayoutPanelRipple, 0, 0);
             this.tableLayoutPanelLewyDol.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanelLewyDol.Location = new System.Drawing.Point(3, 356);
+            this.tableLayoutPanelLewyDol.Location = new System.Drawing.Point(2, 289);
+            this.tableLayoutPanelLewyDol.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tableLayoutPanelLewyDol.Name = "tableLayoutPanelLewyDol";
             this.tableLayoutPanelLewyDol.RowCount = 2;
-            this.tableLayoutPanelLewyDol.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 39F));
+            this.tableLayoutPanelLewyDol.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32F));
             this.tableLayoutPanelLewyDol.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanelLewyDol.Size = new System.Drawing.Size(706, 348);
+            this.tableLayoutPanelLewyDol.Size = new System.Drawing.Size(530, 283);
             this.tableLayoutPanelLewyDol.TabIndex = 1;
             // 
             // dataGridViewRipple
@@ -294,14 +303,15 @@
             dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridViewRipple.DefaultCellStyle = dataGridViewCellStyle5;
             this.dataGridViewRipple.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridViewRipple.Location = new System.Drawing.Point(3, 42);
+            this.dataGridViewRipple.Location = new System.Drawing.Point(2, 34);
+            this.dataGridViewRipple.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridViewRipple.Name = "dataGridViewRipple";
             this.dataGridViewRipple.RowHeadersVisible = false;
             dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.White;
             dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.ControlText;
             this.dataGridViewRipple.RowsDefaultCellStyle = dataGridViewCellStyle6;
             this.dataGridViewRipple.RowTemplate.Height = 24;
-            this.dataGridViewRipple.Size = new System.Drawing.Size(700, 303);
+            this.dataGridViewRipple.Size = new System.Drawing.Size(526, 247);
             this.dataGridViewRipple.TabIndex = 3;
             this.dataGridViewRipple.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewLoad_CellEndEdit);
             // 
@@ -310,9 +320,10 @@
             this.flowLayoutPanelRipple.Controls.Add(this.labelRipple);
             this.flowLayoutPanelRipple.Controls.Add(this.buttonExportRipple);
             this.flowLayoutPanelRipple.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanelRipple.Location = new System.Drawing.Point(3, 3);
+            this.flowLayoutPanelRipple.Location = new System.Drawing.Point(2, 2);
+            this.flowLayoutPanelRipple.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.flowLayoutPanelRipple.Name = "flowLayoutPanelRipple";
-            this.flowLayoutPanelRipple.Size = new System.Drawing.Size(700, 33);
+            this.flowLayoutPanelRipple.Size = new System.Drawing.Size(526, 28);
             this.flowLayoutPanelRipple.TabIndex = 2;
             // 
             // labelRipple
@@ -320,18 +331,20 @@
             this.labelRipple.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelRipple.AutoSize = true;
             this.labelRipple.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.labelRipple.Location = new System.Drawing.Point(3, 4);
+            this.labelRipple.Location = new System.Drawing.Point(2, 4);
+            this.labelRipple.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelRipple.Name = "labelRipple";
-            this.labelRipple.Size = new System.Drawing.Size(88, 24);
+            this.labelRipple.Size = new System.Drawing.Size(67, 18);
             this.labelRipple.TabIndex = 0;
             this.labelRipple.Text = "Tętnienia";
             // 
             // buttonExportRipple
             // 
             this.buttonExportRipple.AutoSize = true;
-            this.buttonExportRipple.Location = new System.Drawing.Point(97, 3);
+            this.buttonExportRipple.Location = new System.Drawing.Point(73, 2);
+            this.buttonExportRipple.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonExportRipple.Name = "buttonExportRipple";
-            this.buttonExportRipple.Size = new System.Drawing.Size(139, 27);
+            this.buttonExportRipple.Size = new System.Drawing.Size(109, 23);
             this.buttonExportRipple.TabIndex = 2;
             this.buttonExportRipple.Text = "Eksportuj do HTML";
             this.buttonExportRipple.UseVisualStyleBackColor = true;
@@ -343,18 +356,20 @@
             this.tabControlTopRight.Controls.Add(this.tabPageRipple);
             this.tabControlTopRight.Controls.Add(this.tabPageNoise);
             this.tabControlTopRight.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControlTopRight.Location = new System.Drawing.Point(715, 3);
+            this.tabControlTopRight.Location = new System.Drawing.Point(536, 2);
+            this.tabControlTopRight.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabControlTopRight.Name = "tabControlTopRight";
             this.tabControlTopRight.SelectedIndex = 0;
-            this.tabControlTopRight.Size = new System.Drawing.Size(707, 347);
+            this.tabControlTopRight.Size = new System.Drawing.Size(531, 283);
             this.tabControlTopRight.TabIndex = 0;
             // 
             // tabPageVreg
             // 
             this.tabPageVreg.Controls.Add(this.tableLayoutPanelPrawyGor);
-            this.tabPageVreg.Location = new System.Drawing.Point(4, 25);
+            this.tabPageVreg.Location = new System.Drawing.Point(4, 22);
+            this.tabPageVreg.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabPageVreg.Name = "tabPageVreg";
-            this.tabPageVreg.Size = new System.Drawing.Size(699, 318);
+            this.tabPageVreg.Size = new System.Drawing.Size(523, 257);
             this.tabPageVreg.TabIndex = 0;
             this.tabPageVreg.Text = "Regulacja napięć";
             this.tabPageVreg.UseVisualStyleBackColor = true;
@@ -367,11 +382,12 @@
             this.tableLayoutPanelPrawyGor.Controls.Add(this.flowLayoutPanelChartVreg, 0, 0);
             this.tableLayoutPanelPrawyGor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanelPrawyGor.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanelPrawyGor.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tableLayoutPanelPrawyGor.Name = "tableLayoutPanelPrawyGor";
             this.tableLayoutPanelPrawyGor.RowCount = 2;
-            this.tableLayoutPanelPrawyGor.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.tableLayoutPanelPrawyGor.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 29F));
             this.tableLayoutPanelPrawyGor.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanelPrawyGor.Size = new System.Drawing.Size(699, 318);
+            this.tableLayoutPanelPrawyGor.Size = new System.Drawing.Size(523, 257);
             this.tableLayoutPanelPrawyGor.TabIndex = 3;
             // 
             // chartVReg
@@ -439,7 +455,8 @@
             chartArea1.Position.Y = 4.4702F;
             this.chartVReg.ChartAreas.Add(chartArea1);
             this.chartVReg.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.chartVReg.Location = new System.Drawing.Point(3, 39);
+            this.chartVReg.Location = new System.Drawing.Point(2, 31);
+            this.chartVReg.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.chartVReg.Name = "chartVReg";
             series1.BorderWidth = 7;
             series1.ChartArea = "ChartArea1";
@@ -448,7 +465,7 @@
             series1.LabelFormat = "#.##V";
             series1.Name = "Series1";
             this.chartVReg.Series.Add(series1);
-            this.chartVReg.Size = new System.Drawing.Size(693, 276);
+            this.chartVReg.Size = new System.Drawing.Size(519, 224);
             this.chartVReg.TabIndex = 4;
             this.chartVReg.Text = "Regulacja napięć";
             // 
@@ -460,9 +477,10 @@
             this.flowLayoutPanelChartVreg.Controls.Add(this.radioButton3V);
             this.flowLayoutPanelChartVreg.Controls.Add(this.buttonImageVreg);
             this.flowLayoutPanelChartVreg.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanelChartVreg.Location = new System.Drawing.Point(3, 3);
+            this.flowLayoutPanelChartVreg.Location = new System.Drawing.Point(2, 2);
+            this.flowLayoutPanelChartVreg.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.flowLayoutPanelChartVreg.Name = "flowLayoutPanelChartVreg";
-            this.flowLayoutPanelChartVreg.Size = new System.Drawing.Size(693, 30);
+            this.flowLayoutPanelChartVreg.Size = new System.Drawing.Size(519, 25);
             this.flowLayoutPanelChartVreg.TabIndex = 2;
             // 
             // labelVReg
@@ -470,9 +488,10 @@
             this.labelVReg.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelVReg.AutoSize = true;
             this.labelVReg.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.labelVReg.Location = new System.Drawing.Point(3, 4);
+            this.labelVReg.Location = new System.Drawing.Point(2, 4);
+            this.labelVReg.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelVReg.Name = "labelVReg";
-            this.labelVReg.Size = new System.Drawing.Size(156, 24);
+            this.labelVReg.Size = new System.Drawing.Size(120, 18);
             this.labelVReg.TabIndex = 0;
             this.labelVReg.Text = "Regulacja napięć";
             // 
@@ -481,9 +500,10 @@
             this.radioButton12V.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.radioButton12V.AutoSize = true;
             this.radioButton12V.Checked = true;
-            this.radioButton12V.Location = new System.Drawing.Point(165, 6);
+            this.radioButton12V.Location = new System.Drawing.Point(126, 5);
+            this.radioButton12V.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.radioButton12V.Name = "radioButton12V";
-            this.radioButton12V.Size = new System.Drawing.Size(54, 21);
+            this.radioButton12V.Size = new System.Drawing.Size(44, 17);
             this.radioButton12V.TabIndex = 1;
             this.radioButton12V.TabStop = true;
             this.radioButton12V.Text = "12V";
@@ -494,9 +514,10 @@
             // 
             this.radioButton5V.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.radioButton5V.AutoSize = true;
-            this.radioButton5V.Location = new System.Drawing.Point(225, 6);
+            this.radioButton5V.Location = new System.Drawing.Point(174, 5);
+            this.radioButton5V.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.radioButton5V.Name = "radioButton5V";
-            this.radioButton5V.Size = new System.Drawing.Size(46, 21);
+            this.radioButton5V.Size = new System.Drawing.Size(38, 17);
             this.radioButton5V.TabIndex = 2;
             this.radioButton5V.Text = "5V";
             this.radioButton5V.UseVisualStyleBackColor = true;
@@ -506,9 +527,10 @@
             // 
             this.radioButton3V.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.radioButton3V.AutoSize = true;
-            this.radioButton3V.Location = new System.Drawing.Point(277, 6);
+            this.radioButton3V.Location = new System.Drawing.Point(216, 5);
+            this.radioButton3V.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.radioButton3V.Name = "radioButton3V";
-            this.radioButton3V.Size = new System.Drawing.Size(58, 21);
+            this.radioButton3V.Size = new System.Drawing.Size(47, 17);
             this.radioButton3V.TabIndex = 3;
             this.radioButton3V.Text = "3.3V";
             this.radioButton3V.UseVisualStyleBackColor = true;
@@ -517,9 +539,10 @@
             // buttonImageVreg
             // 
             this.buttonImageVreg.AutoSize = true;
-            this.buttonImageVreg.Location = new System.Drawing.Point(341, 3);
+            this.buttonImageVreg.Location = new System.Drawing.Point(267, 2);
+            this.buttonImageVreg.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonImageVreg.Name = "buttonImageVreg";
-            this.buttonImageVreg.Size = new System.Drawing.Size(107, 27);
+            this.buttonImageVreg.Size = new System.Drawing.Size(85, 23);
             this.buttonImageVreg.TabIndex = 4;
             this.buttonImageVreg.Text = "Zapisz w PNG";
             this.buttonImageVreg.UseVisualStyleBackColor = true;
@@ -528,9 +551,10 @@
             // tabPageRipple
             // 
             this.tabPageRipple.Controls.Add(this.tableLayoutPanel1);
-            this.tabPageRipple.Location = new System.Drawing.Point(4, 25);
+            this.tabPageRipple.Location = new System.Drawing.Point(4, 22);
+            this.tabPageRipple.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabPageRipple.Name = "tabPageRipple";
-            this.tabPageRipple.Size = new System.Drawing.Size(699, 318);
+            this.tabPageRipple.Size = new System.Drawing.Size(523, 257);
             this.tabPageRipple.TabIndex = 1;
             this.tabPageRipple.Text = "Tętnienia";
             this.tabPageRipple.UseVisualStyleBackColor = true;
@@ -543,11 +567,12 @@
             this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanelChartRipple, 0, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 29F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(699, 318);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(523, 257);
             this.tableLayoutPanel1.TabIndex = 3;
             // 
             // chartRipple
@@ -600,7 +625,8 @@
             chartArea2.Position.Y = 4.4702F;
             this.chartRipple.ChartAreas.Add(chartArea2);
             this.chartRipple.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.chartRipple.Location = new System.Drawing.Point(3, 39);
+            this.chartRipple.Location = new System.Drawing.Point(2, 31);
+            this.chartRipple.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.chartRipple.Name = "chartRipple";
             series2.BorderWidth = 0;
             series2.ChartArea = "ChartArea1";
@@ -608,7 +634,7 @@
             series2.LabelFormat = "#.##V";
             series2.Name = "Series1";
             this.chartRipple.Series.Add(series2);
-            this.chartRipple.Size = new System.Drawing.Size(693, 276);
+            this.chartRipple.Size = new System.Drawing.Size(519, 224);
             this.chartRipple.TabIndex = 4;
             this.chartRipple.Text = "Tętnienia";
             // 
@@ -620,9 +646,10 @@
             this.flowLayoutPanelChartRipple.Controls.Add(this.radioButton3VRipple);
             this.flowLayoutPanelChartRipple.Controls.Add(this.buttonImageRipple);
             this.flowLayoutPanelChartRipple.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanelChartRipple.Location = new System.Drawing.Point(3, 3);
+            this.flowLayoutPanelChartRipple.Location = new System.Drawing.Point(2, 2);
+            this.flowLayoutPanelChartRipple.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.flowLayoutPanelChartRipple.Name = "flowLayoutPanelChartRipple";
-            this.flowLayoutPanelChartRipple.Size = new System.Drawing.Size(693, 30);
+            this.flowLayoutPanelChartRipple.Size = new System.Drawing.Size(519, 25);
             this.flowLayoutPanelChartRipple.TabIndex = 2;
             // 
             // labelRippleChart
@@ -630,9 +657,10 @@
             this.labelRippleChart.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelRippleChart.AutoSize = true;
             this.labelRippleChart.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.labelRippleChart.Location = new System.Drawing.Point(3, 4);
+            this.labelRippleChart.Location = new System.Drawing.Point(2, 4);
+            this.labelRippleChart.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelRippleChart.Name = "labelRippleChart";
-            this.labelRippleChart.Size = new System.Drawing.Size(88, 24);
+            this.labelRippleChart.Size = new System.Drawing.Size(67, 18);
             this.labelRippleChart.TabIndex = 0;
             this.labelRippleChart.Text = "Tętnienia";
             // 
@@ -641,9 +669,10 @@
             this.radioButton12VRipple.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.radioButton12VRipple.AutoSize = true;
             this.radioButton12VRipple.Checked = true;
-            this.radioButton12VRipple.Location = new System.Drawing.Point(97, 6);
+            this.radioButton12VRipple.Location = new System.Drawing.Point(73, 5);
+            this.radioButton12VRipple.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.radioButton12VRipple.Name = "radioButton12VRipple";
-            this.radioButton12VRipple.Size = new System.Drawing.Size(54, 21);
+            this.radioButton12VRipple.Size = new System.Drawing.Size(44, 17);
             this.radioButton12VRipple.TabIndex = 1;
             this.radioButton12VRipple.TabStop = true;
             this.radioButton12VRipple.Text = "12V";
@@ -654,9 +683,10 @@
             // 
             this.radioButton5VRipple.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.radioButton5VRipple.AutoSize = true;
-            this.radioButton5VRipple.Location = new System.Drawing.Point(157, 6);
+            this.radioButton5VRipple.Location = new System.Drawing.Point(121, 5);
+            this.radioButton5VRipple.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.radioButton5VRipple.Name = "radioButton5VRipple";
-            this.radioButton5VRipple.Size = new System.Drawing.Size(46, 21);
+            this.radioButton5VRipple.Size = new System.Drawing.Size(38, 17);
             this.radioButton5VRipple.TabIndex = 2;
             this.radioButton5VRipple.Text = "5V";
             this.radioButton5VRipple.UseVisualStyleBackColor = true;
@@ -666,9 +696,10 @@
             // 
             this.radioButton3VRipple.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.radioButton3VRipple.AutoSize = true;
-            this.radioButton3VRipple.Location = new System.Drawing.Point(209, 6);
+            this.radioButton3VRipple.Location = new System.Drawing.Point(163, 5);
+            this.radioButton3VRipple.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.radioButton3VRipple.Name = "radioButton3VRipple";
-            this.radioButton3VRipple.Size = new System.Drawing.Size(58, 21);
+            this.radioButton3VRipple.Size = new System.Drawing.Size(47, 17);
             this.radioButton3VRipple.TabIndex = 3;
             this.radioButton3VRipple.Text = "3.3V";
             this.radioButton3VRipple.UseVisualStyleBackColor = true;
@@ -677,9 +708,10 @@
             // buttonImageRipple
             // 
             this.buttonImageRipple.AutoSize = true;
-            this.buttonImageRipple.Location = new System.Drawing.Point(273, 3);
+            this.buttonImageRipple.Location = new System.Drawing.Point(214, 2);
+            this.buttonImageRipple.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonImageRipple.Name = "buttonImageRipple";
-            this.buttonImageRipple.Size = new System.Drawing.Size(107, 27);
+            this.buttonImageRipple.Size = new System.Drawing.Size(85, 23);
             this.buttonImageRipple.TabIndex = 5;
             this.buttonImageRipple.Text = "Zapisz w PNG";
             this.buttonImageRipple.UseVisualStyleBackColor = true;
@@ -688,10 +720,11 @@
             // tabPageNoise
             // 
             this.tabPageNoise.Controls.Add(this.tableLayoutPanel2);
-            this.tabPageNoise.Location = new System.Drawing.Point(4, 25);
+            this.tabPageNoise.Location = new System.Drawing.Point(4, 22);
+            this.tabPageNoise.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabPageNoise.Name = "tabPageNoise";
-            this.tabPageNoise.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageNoise.Size = new System.Drawing.Size(699, 318);
+            this.tabPageNoise.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPageNoise.Size = new System.Drawing.Size(523, 257);
             this.tabPageNoise.TabIndex = 2;
             this.tabPageNoise.Text = "Głośność";
             this.tabPageNoise.UseVisualStyleBackColor = true;
@@ -703,12 +736,13 @@
             this.tableLayoutPanel2.Controls.Add(this.chartNoise, 0, 1);
             this.tableLayoutPanel2.Controls.Add(this.flowLayoutPanel1, 0, 0);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 3);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(2, 2);
+            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 2;
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 29F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(693, 312);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(519, 253);
             this.tableLayoutPanel2.TabIndex = 4;
             // 
             // chartNoise
@@ -760,7 +794,8 @@
             chartArea3.Position.Y = 4.4702F;
             this.chartNoise.ChartAreas.Add(chartArea3);
             this.chartNoise.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.chartNoise.Location = new System.Drawing.Point(3, 39);
+            this.chartNoise.Location = new System.Drawing.Point(2, 31);
+            this.chartNoise.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.chartNoise.Name = "chartNoise";
             series3.BorderWidth = 5;
             series3.ChartArea = "ChartArea1";
@@ -776,7 +811,7 @@
             series4.Name = "RPM";
             this.chartNoise.Series.Add(series3);
             this.chartNoise.Series.Add(series4);
-            this.chartNoise.Size = new System.Drawing.Size(687, 270);
+            this.chartNoise.Size = new System.Drawing.Size(515, 220);
             this.chartNoise.TabIndex = 4;
             this.chartNoise.Text = "Regulacja napięć";
             // 
@@ -785,9 +820,10 @@
             this.flowLayoutPanel1.Controls.Add(this.labelNoise);
             this.flowLayoutPanel1.Controls.Add(this.buttonImageNoise);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 3);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(2, 2);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(687, 30);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(515, 25);
             this.flowLayoutPanel1.TabIndex = 2;
             // 
             // labelNoise
@@ -795,9 +831,10 @@
             this.labelNoise.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelNoise.AutoSize = true;
             this.labelNoise.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.labelNoise.Location = new System.Drawing.Point(3, 4);
+            this.labelNoise.Location = new System.Drawing.Point(2, 4);
+            this.labelNoise.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelNoise.Name = "labelNoise";
-            this.labelNoise.Size = new System.Drawing.Size(259, 24);
+            this.labelNoise.Size = new System.Drawing.Size(206, 18);
             this.labelNoise.TabIndex = 0;
             this.labelNoise.Text = "Głośność / obroty wentylatora";
             this.labelNoise.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -805,9 +842,10 @@
             // buttonImageNoise
             // 
             this.buttonImageNoise.AutoSize = true;
-            this.buttonImageNoise.Location = new System.Drawing.Point(268, 3);
+            this.buttonImageNoise.Location = new System.Drawing.Point(212, 2);
+            this.buttonImageNoise.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonImageNoise.Name = "buttonImageNoise";
-            this.buttonImageNoise.Size = new System.Drawing.Size(107, 27);
+            this.buttonImageNoise.Size = new System.Drawing.Size(85, 23);
             this.buttonImageNoise.TabIndex = 4;
             this.buttonImageNoise.Text = "Zapisz w PNG";
             this.buttonImageNoise.UseVisualStyleBackColor = true;
@@ -821,13 +859,14 @@
             this.tableLayoutPanelDolnyPrawy.Controls.Add(this.flowLayoutPanel2, 0, 1);
             this.tableLayoutPanelDolnyPrawy.Controls.Add(this.buttonExit, 0, 2);
             this.tableLayoutPanelDolnyPrawy.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanelDolnyPrawy.Location = new System.Drawing.Point(715, 356);
+            this.tableLayoutPanelDolnyPrawy.Location = new System.Drawing.Point(536, 289);
+            this.tableLayoutPanelDolnyPrawy.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tableLayoutPanelDolnyPrawy.Name = "tableLayoutPanelDolnyPrawy";
             this.tableLayoutPanelDolnyPrawy.RowCount = 3;
-            this.tableLayoutPanelDolnyPrawy.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 39F));
+            this.tableLayoutPanelDolnyPrawy.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32F));
             this.tableLayoutPanelDolnyPrawy.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanelDolnyPrawy.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 37F));
-            this.tableLayoutPanelDolnyPrawy.Size = new System.Drawing.Size(707, 348);
+            this.tableLayoutPanelDolnyPrawy.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.tableLayoutPanelDolnyPrawy.Size = new System.Drawing.Size(531, 283);
             this.tableLayoutPanelDolnyPrawy.TabIndex = 2;
             // 
             // labelPodsumowanie
@@ -835,10 +874,10 @@
             this.labelPodsumowanie.AutoSize = true;
             this.labelPodsumowanie.Dock = System.Windows.Forms.DockStyle.Left;
             this.labelPodsumowanie.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.labelPodsumowanie.Location = new System.Drawing.Point(5, 0);
-            this.labelPodsumowanie.Margin = new System.Windows.Forms.Padding(5, 0, 3, 0);
+            this.labelPodsumowanie.Location = new System.Drawing.Point(4, 0);
+            this.labelPodsumowanie.Margin = new System.Windows.Forms.Padding(4, 0, 2, 0);
             this.labelPodsumowanie.Name = "labelPodsumowanie";
-            this.labelPodsumowanie.Size = new System.Drawing.Size(141, 39);
+            this.labelPodsumowanie.Size = new System.Drawing.Size(111, 32);
             this.labelPodsumowanie.TabIndex = 1;
             this.labelPodsumowanie.Text = "Podsumowanie";
             this.labelPodsumowanie.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -860,45 +899,50 @@
             this.flowLayoutPanel2.Controls.Add(this.labelEffiResult);
             this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel2.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(3, 42);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(2, 34);
+            this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(701, 266);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(527, 217);
             this.flowLayoutPanel2.TabIndex = 2;
             // 
             // labelRegulacjaNapiec
             // 
             this.labelRegulacjaNapiec.AutoSize = true;
             this.labelRegulacjaNapiec.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.labelRegulacjaNapiec.Location = new System.Drawing.Point(3, 0);
+            this.labelRegulacjaNapiec.Location = new System.Drawing.Point(2, 0);
+            this.labelRegulacjaNapiec.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelRegulacjaNapiec.Name = "labelRegulacjaNapiec";
-            this.labelRegulacjaNapiec.Size = new System.Drawing.Size(279, 20);
+            this.labelRegulacjaNapiec.Size = new System.Drawing.Size(229, 17);
             this.labelRegulacjaNapiec.TabIndex = 0;
             this.labelRegulacjaNapiec.Text = "Najgorsza regulacja napięć: ";
             // 
             // labelReg12V
             // 
             this.labelReg12V.AutoSize = true;
-            this.labelReg12V.Location = new System.Drawing.Point(3, 20);
+            this.labelReg12V.Location = new System.Drawing.Point(2, 17);
+            this.labelReg12V.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelReg12V.Name = "labelReg12V";
-            this.labelReg12V.Size = new System.Drawing.Size(41, 17);
+            this.labelReg12V.Size = new System.Drawing.Size(32, 13);
             this.labelReg12V.TabIndex = 1;
             this.labelReg12V.Text = "12V: ";
             // 
             // labelReg5V
             // 
             this.labelReg5V.AutoSize = true;
-            this.labelReg5V.Location = new System.Drawing.Point(3, 37);
+            this.labelReg5V.Location = new System.Drawing.Point(2, 30);
+            this.labelReg5V.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelReg5V.Name = "labelReg5V";
-            this.labelReg5V.Size = new System.Drawing.Size(33, 17);
+            this.labelReg5V.Size = new System.Drawing.Size(26, 13);
             this.labelReg5V.TabIndex = 2;
             this.labelReg5V.Text = "5V: ";
             // 
             // labelReg3V
             // 
             this.labelReg3V.AutoSize = true;
-            this.labelReg3V.Location = new System.Drawing.Point(3, 54);
+            this.labelReg3V.Location = new System.Drawing.Point(2, 43);
+            this.labelReg3V.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelReg3V.Name = "labelReg3V";
-            this.labelReg3V.Size = new System.Drawing.Size(45, 17);
+            this.labelReg3V.Size = new System.Drawing.Size(35, 13);
             this.labelReg3V.TabIndex = 3;
             this.labelReg3V.Text = "3.3V: ";
             // 
@@ -906,36 +950,40 @@
             // 
             this.labelVDrop.AutoSize = true;
             this.labelVDrop.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.labelVDrop.Location = new System.Drawing.Point(3, 71);
+            this.labelVDrop.Location = new System.Drawing.Point(2, 56);
+            this.labelVDrop.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelVDrop.Name = "labelVDrop";
-            this.labelVDrop.Size = new System.Drawing.Size(300, 20);
+            this.labelVDrop.Size = new System.Drawing.Size(247, 17);
             this.labelVDrop.TabIndex = 4;
             this.labelVDrop.Text = "Spadek napięcia 10% - 100%:";
             // 
             // labelDrop12
             // 
             this.labelDrop12.AutoSize = true;
-            this.labelDrop12.Location = new System.Drawing.Point(3, 91);
+            this.labelDrop12.Location = new System.Drawing.Point(2, 73);
+            this.labelDrop12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelDrop12.Name = "labelDrop12";
-            this.labelDrop12.Size = new System.Drawing.Size(37, 17);
+            this.labelDrop12.Size = new System.Drawing.Size(29, 13);
             this.labelDrop12.TabIndex = 5;
             this.labelDrop12.Text = "12V:";
             // 
             // labelDrop5
             // 
             this.labelDrop5.AutoSize = true;
-            this.labelDrop5.Location = new System.Drawing.Point(3, 108);
+            this.labelDrop5.Location = new System.Drawing.Point(2, 86);
+            this.labelDrop5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelDrop5.Name = "labelDrop5";
-            this.labelDrop5.Size = new System.Drawing.Size(33, 17);
+            this.labelDrop5.Size = new System.Drawing.Size(26, 13);
             this.labelDrop5.TabIndex = 6;
             this.labelDrop5.Text = "5V: ";
             // 
             // labelDrop3
             // 
             this.labelDrop3.AutoSize = true;
-            this.labelDrop3.Location = new System.Drawing.Point(3, 125);
+            this.labelDrop3.Location = new System.Drawing.Point(2, 99);
+            this.labelDrop3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelDrop3.Name = "labelDrop3";
-            this.labelDrop3.Size = new System.Drawing.Size(41, 17);
+            this.labelDrop3.Size = new System.Drawing.Size(32, 13);
             this.labelDrop3.TabIndex = 7;
             this.labelDrop3.Text = "3.3V:";
             // 
@@ -943,54 +991,60 @@
             // 
             this.labelEffi.AutoSize = true;
             this.labelEffi.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.labelEffi.Location = new System.Drawing.Point(3, 142);
+            this.labelEffi.Location = new System.Drawing.Point(2, 112);
+            this.labelEffi.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelEffi.Name = "labelEffi";
-            this.labelEffi.Size = new System.Drawing.Size(120, 20);
+            this.labelEffi.Size = new System.Drawing.Size(100, 17);
             this.labelEffi.TabIndex = 8;
             this.labelEffi.Text = "Sprawność:";
             // 
             // labelEffi20
             // 
             this.labelEffi20.AutoSize = true;
-            this.labelEffi20.Location = new System.Drawing.Point(3, 162);
+            this.labelEffi20.Location = new System.Drawing.Point(2, 129);
+            this.labelEffi20.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelEffi20.Name = "labelEffi20";
-            this.labelEffi20.Size = new System.Drawing.Size(40, 17);
+            this.labelEffi20.Size = new System.Drawing.Size(30, 13);
             this.labelEffi20.TabIndex = 9;
             this.labelEffi20.Text = "20%:";
             // 
             // labelEffi50
             // 
             this.labelEffi50.AutoSize = true;
-            this.labelEffi50.Location = new System.Drawing.Point(3, 179);
+            this.labelEffi50.Location = new System.Drawing.Point(2, 142);
+            this.labelEffi50.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelEffi50.Name = "labelEffi50";
-            this.labelEffi50.Size = new System.Drawing.Size(40, 17);
+            this.labelEffi50.Size = new System.Drawing.Size(30, 13);
             this.labelEffi50.TabIndex = 10;
             this.labelEffi50.Text = "50%:";
             // 
             // labelEffi100
             // 
             this.labelEffi100.AutoSize = true;
-            this.labelEffi100.Location = new System.Drawing.Point(3, 196);
+            this.labelEffi100.Location = new System.Drawing.Point(2, 155);
+            this.labelEffi100.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelEffi100.Name = "labelEffi100";
-            this.labelEffi100.Size = new System.Drawing.Size(48, 17);
+            this.labelEffi100.Size = new System.Drawing.Size(36, 13);
             this.labelEffi100.TabIndex = 11;
             this.labelEffi100.Text = "100%:";
             // 
             // labelEffiResult
             // 
             this.labelEffiResult.AutoSize = true;
-            this.labelEffiResult.Location = new System.Drawing.Point(3, 213);
+            this.labelEffiResult.Location = new System.Drawing.Point(2, 168);
+            this.labelEffiResult.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelEffiResult.Name = "labelEffiResult";
-            this.labelEffiResult.Size = new System.Drawing.Size(16, 17);
+            this.labelEffiResult.Size = new System.Drawing.Size(13, 13);
             this.labelEffiResult.TabIndex = 12;
             this.labelEffiResult.Text = "=";
             // 
             // buttonExit
             // 
             this.buttonExit.Dock = System.Windows.Forms.DockStyle.Right;
-            this.buttonExit.Location = new System.Drawing.Point(629, 314);
+            this.buttonExit.Location = new System.Drawing.Point(473, 255);
+            this.buttonExit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonExit.Name = "buttonExit";
-            this.buttonExit.Size = new System.Drawing.Size(75, 31);
+            this.buttonExit.Size = new System.Drawing.Size(56, 26);
             this.buttonExit.TabIndex = 3;
             this.buttonExit.Text = "Wyjście";
             this.buttonExit.UseVisualStyleBackColor = true;
@@ -1012,10 +1066,11 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1425, 707);
+            this.ClientSize = new System.Drawing.Size(1069, 574);
             this.Controls.Add(this.tableLayoutPanelGlowny);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "ATX";
             this.tableLayoutPanelGlowny.ResumeLayout(false);
